@@ -7,7 +7,7 @@
 		 font-family: courier new; color: black;
 		 spadding-inline-start: 0px;}
 
-	#bodyul {padding-inline-start: 0px; padding: 0px;} /* index �ʱ�ȭ�� ���� �鿩���� ���� ..*/
+	#bodyul {padding-inline-start: 0px; padding: 0px;} /* index ï¿½Ê±ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½é¿©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ..*/
 
 	#toIndex { text-decoration:none; font-size:40px; font-weight:bold; color:black;} /* choose roll */
 
@@ -60,7 +60,7 @@
 
 
 
-/* 연습 */
+/* ì—°ìŠµ */
 			.bigPictureWrapper {
 			position: absolute;
 			display: none;
