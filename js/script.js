@@ -11,10 +11,10 @@ setInterval(function(){
 //////////////  Clock END LINE ///////////////
 /// date ///
 setInterval(function(){
-    var n =  new Date();
-    var y = n.getFullYear();
-    var m = n.getMonth() + 1;
-    var d = n.getDate();
+    var calender =  new Date();
+    var y = calender.getFullYear();
+    var m = calender.getMonth() + 1;
+    var d = calender.getDate();
     if( m < 10 ) m = '0' + m;
     if( d < 10 ) d = '0' + d;
     document.getElementById("date").innerHTML = y + "年" + " " + m + "月" + " " + d + "日"});
