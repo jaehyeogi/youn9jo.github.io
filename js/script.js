@@ -10,17 +10,6 @@ setInterval(function(){
     document.getElementById('clock').innerHTML = h + ":" + m + ":" + s},1000);
 //////////////  Clock END LINE ///////////////
 
-//////////////// ios mobile hover problem fix ////////////////
-    $(document).ready(function() {
-    $("a").on("click touchend", function(e) {
-      var el = $(this);
-      var link = el.attr("href");
-      window.location = link;
-    });
-  });
-
-//////////// ios mobile hover problem fix end line /////////////////
-
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
     // target element id
