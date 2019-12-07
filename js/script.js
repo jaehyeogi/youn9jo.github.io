@@ -9,7 +9,15 @@ setInterval(function(){
     if( s < 10 ) s = '0' + s;
     document.getElementById('clock').innerHTML = h + ":" + m + ":" + s},1000);
 //////////////  Clock END LINE ///////////////
-
+/// date ///
+function(){
+    var n =  new Date();
+    var y = n.getFullYear();
+    var m = n.getMonth() + 1;
+    var d = n.getDate();
+    document.getElementById("date").innerHTML = y + "年" + m + "月" + d + "日";
+}
+/// date end line ///
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
     // target element id
@@ -30,9 +38,3 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     // animated top scrolling
     $('body, html').animate({scrollTop: pos});
 });
-
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-document.getElementById("date").innerHTML = y + "年" + m + "月" + d + "日";
