@@ -1,0 +1,64 @@
+<meta http-equiv="X-UA-Compatible" content="IE=edge" meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<html>
+<head>
+<style>
+  iframe {width:70vw; height:90vh; overflow:hidden; scrolling="no";}
+  iframe-diary {position:relative; float:left;}
+  div { overflow:scroll; -webkit-overflow-scrolling:touch; }
+  li {  list-style: none; display: inline;}
+</style>
+</head>
+<title>youn9jo</title>
+<link rel="stylesheet" type="text/css" href="css/myForm.css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src = "js/script.js"></script>
+<script>
+jQuery(document).ready(function($){
+    $(".scroll").click(function(event){
+    event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+        //offset()함수를 이용하여 위치를 찾습니다.
+    });
+});
+</script>
+<br>
+<h3 style="font-family:courier new; margin-left: 2.5%" id="clock"></h3>
+<br>
+<body id="page-main" class="page-main"><div id="header">
+	<!--navigation-->
+	<ul>
+			<li><a href="#iframe-about" class = "scroll">about</a></li> /
+      <li><a href="#iframe-photo" class = "scroll">photo</a></li> /
+      <li><a href="#iframe-video" class = "scroll">video</a></li> /
+      <li><a href="#iframe-diary" class = "scroll">diary</a></li> /
+      <li><a href="#iframe-schedule" class = "scroll">schedule</a></li>
+  </ul>
+  <small>* photo & video yet</small>
+</div> <!-- #header -->
+<br><br>
+<!--body-->
+<div id="body">
+	<div id="iframes">
+<!-- diary -->
+<div class="iframe-diary" id = "iframe-diary">
+  <iframe frameborder="1" src="https://docs.google.com/document/d/e/2PACX-1vQEBcJU2Chd0dlIvPvZszK4gtTUti99hz--IIhAvf4IpY4N5V6uIXpOe3MWnzQ9IbEbehfA9vSkUzxY/pub">
+  </iframe>
+</div>
+<!-- -->
+
+<!-- top button -->
+<div style = "position: fixed; bottom: 10px; right: 10px;">
+  <a href = "#header">위로</a>
+</div>
+</div> <!-- #iframes -->
+<br><br>
+</div>
+<!--  -->
+
+<!-- footer -->
+<div id="footer" class="hide"> youngjo jeong 2019
+<a href="https://www.instagram.com/youn9jo/" target="_blank" style="text-decoration:none; font-style:bold; color:black;">@youn9jo</a>
+</div> <!-- #footer -->
+</body>
+</html>
