@@ -15,7 +15,9 @@ setInterval(function(){
     var y = n.getFullYear();
     var m = n.getMonth() + 1;
     var d = n.getDate();
-    document.getElementById("date").innerHTML = y + "年" + m + "月" + d + "日"});
+    if( m < 10 ) m = '0' + m;
+    if( d < 10 ) d = '0' + d;
+    document.getElementById("date").innerHTML = y + "年" + " " + m + "月" + " " + d + "日"});
 /// date end line ///
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
