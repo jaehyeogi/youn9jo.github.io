@@ -1,4 +1,4 @@
-///////////////// Clock START LINE ////////////////
+// 시계
 setInterval(function(){
     var timer = new Date();
     var hour = timer.getHours();
@@ -8,9 +8,9 @@ setInterval(function(){
     if( minute < 10 ) minute = '0' + minute;
     if( second < 10 ) second = '0' + second;
     document.getElementById('clock').innerHTML = hour + ":" + minute + ":" + second},1000);
-//////////////  Clock END LINE ///////////////
 
-/// date ///
+
+// 년, 월, 일
 setInterval(function(){
     var calender =  new Date();
     var year = calender.getFullYear();
@@ -22,9 +22,9 @@ setInterval(function(){
     if( month < 10 ) month = '0' + month;
     if( date < 10 ) date = '0' + date;
     document.getElementById("date").innerHTML = year + "年" + " " + month + "月" + " " + date + "日" + " " + day});
-/// date end line ///
 
-// handle links with @href started with '#' only
+
+// 위로 버튼
 $(document).on('click', 'a[href^="#"]', function(e) {
     // target element id
     var id = $(this).attr('href');
