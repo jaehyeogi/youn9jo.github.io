@@ -12,12 +12,13 @@ setInterval(function(){
 /// date ///
 setInterval(function(){
     var calender =  new Date();
-    var y = calender.getFullYear();
-    var m = calender.getMonth() + 1;
-    var d = calender.getDate();
-    if( m < 10 ) m = '0' + m;
-    if( d < 10 ) d = '0' + d;
-    document.getElementById("date").innerHTML = y + "年" + " " + m + "月" + " " + d + "日"});
+    var year = calender.getFullYear();
+    var month = calender.getMonth() + 1;
+    var date = calender.getDate();
+    var day = calender.getDay();
+    if( month < 10 ) month = '0' + month;
+    if( date < 10 ) date = '0' + date;
+    document.getElementById("date").innerHTML = year + "年" + " " + month + "月" + " " + date + "日"});
 /// date end line ///
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
