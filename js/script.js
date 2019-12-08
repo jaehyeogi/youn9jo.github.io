@@ -1,13 +1,13 @@
 ///////////////// Clock START LINE ////////////////
 setInterval(function(){
     var timer = new Date();
-    var h = timer.getHours();
-    var m = timer.getMinutes();
-    var s = timer.getSeconds();
-    if( h < 10 ) h = '0' + h;
-    if( m < 10 ) m = '0' + m;
-    if( s < 10 ) s = '0' + s;
-    document.getElementById('clock').innerHTML = h + ":" + m + ":" + s},1000);
+    var hour = timer.getHours();
+    var minute = timer.getMinutes();
+    var second = timer.getSeconds();
+    if( hour < 10 ) hour = '0' + hour;
+    if( minute < 10 ) minute = '0' + minute;
+    if( second < 10 ) second = '0' + second;
+    document.getElementById('clock').innerHTML = hour + ":" + minute + ":" + second},1000);
 //////////////  Clock END LINE ///////////////
 /// date ///
 setInterval(function(){
