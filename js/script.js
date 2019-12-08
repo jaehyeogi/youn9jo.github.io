@@ -16,7 +16,8 @@ setInterval(function(){
     var year = calender.getFullYear();
     var month = calender.getMonth() + 1;
     var date = calender.getDate();
-    var week = ['일', '월', '화', '수', '목', '금', '토'];
+    var week =new Array('日','月','火','水','木','金','土');
+
     var day = "(" + week[calender.getDay()] + ")";
     if( month < 10 ) month = '0' + month;
     if( date < 10 ) date = '0' + date;
