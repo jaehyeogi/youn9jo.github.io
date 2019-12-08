@@ -9,6 +9,7 @@ setInterval(function(){
     if( second < 10 ) second = '0' + second;
     document.getElementById('clock').innerHTML = hour + ":" + minute + ":" + second},1000);
 //////////////  Clock END LINE ///////////////
+
 /// date ///
 setInterval(function(){
     var calender =  new Date();
@@ -21,6 +22,7 @@ setInterval(function(){
     if( date < 10 ) date = '0' + date;
     document.getElementById("date").innerHTML = year + "年" + " " + month + "月" + " " + date + "日" + " " + day});
 /// date end line ///
+
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
     // target element id
