@@ -16,7 +16,7 @@ setInterval(function(){
     var month = calender.getMonth() + 1;
     var date = calender.getDate();
     var week = ['일', '월', '화', '수', '목', '금', '토'];
-    var day = week[new Date('2016-07-28').getDay()];
+    var day = week[new Date('2019年12月08日').getDay()];
     if( month < 10 ) month = '0' + month;
     if( date < 10 ) date = '0' + date;
     document.getElementById("date").innerHTML = year + "年" + " " + month + "月" + " " + date + "日" + " " + (day)});
