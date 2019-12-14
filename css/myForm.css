@@ -18,7 +18,7 @@
 	#bodyul { padding-inline-start: 0px; padding: 0px; }
 
 	.film_box { width: 50%; height: 50% }
-	img{ max-width:100%; height:auto; }
+	img { max-width: 100%; height: auto; }
 
 	/* snowflake start line */
 	.snowflake {
