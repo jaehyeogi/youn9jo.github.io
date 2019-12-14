@@ -17,32 +17,7 @@
 	#clock { font-family: Seogoe UI; }
 	#bodyul { padding-inline-start: 0px; padding: 0px; }
 
-	/* photobox start line */
-	.film_box,
-	.film_box * { box-sizing: border-box; }
-	.film_box { position: relative; display: inline-block;
-			        overflow: hidden; max-width: 60%; height: auto; }
-	.film_box img { max-width: 60%; }
-	.film_box .film_pic { display: block; }
-	.film_box .film_layer_top { opacity: 0; position: absolute;
-															top: 0; left: 0; right: 0;
-															bottom: 0; width: 60%; height: 95%;
-															background: rgba(0, 0, 0, 0.6);
-															color: #fff; padding: 15px;
-															-moz-transition: all 0.4s ease-in-out 0s;
-															-webkit-transition: all 0.4s ease-in-out 0s;
-															-ms-transition: all 0.4s ease-in-out 0s;
-															transition: all 0.4s ease-in-out 0s; }
-	.film_box:hover .film_layer_top,
-	.film_box.active .film_layer_top { opacity: 1; }
-	.film_box .film_text { text-align: center; font-size: 18px;
-												 display: inline-block; position: absolute;
-												 top: 50%; left: 50%;
-												 -moz-transform: translate(-50%, -50%);
-												 -webkit-transform: translate(-50%, -50%);
-												 -ms-transform: translate(-50%, -50%);
-												 transform: translate(-50%, -50%); }
-	/* photobox end line */
+	.film_box, img{ width:50%; height:50%; }
 
 	/* snowflake start line */
 	.snowflake {
