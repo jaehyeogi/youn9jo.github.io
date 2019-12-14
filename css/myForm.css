@@ -17,7 +17,7 @@
 	#clock { font-family: Seogoe UI; }
 	#bodyul { padding-inline-start: 0px; padding: 0px; }
 
-	.film_box { width: 50%; height: 50% }
+	.film_box { max-width: 50%; max-height: 50% }
 	img { max-width: 100%; height: auto; }
 
 	/* snowflake start line */
