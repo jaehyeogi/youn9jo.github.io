@@ -46,5 +46,5 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 });
 
 function sorry(){
-    alert('oops')
+    alert('😪')
 }
