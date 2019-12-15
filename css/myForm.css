@@ -1,10 +1,10 @@
 @CHARSET "EUC-KR";
 
-	body { font-family: Segoe UI; }
-	body a { text-decoration:none; color:black; }
-	body a:hover { color:gray; font-weight:bold; }
+	body { font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; }
+	body a { text-decoration:none; color:black; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;}
+	body a:hover { color:gray; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; font-weight:bold; }
 	footer { width:auto; height:auto; clear:both; margin-left:auto; margin-right:auto;
-					font-family: Helvetica Neue; font-weight:bold; }
+					font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; font-weight:bold; }
 	footer a:hover { text-decoration:none; font-weight:bold; color:black; }
 
 	.nav {
@@ -15,6 +15,7 @@
   	grid-gap: 1rem; /* 그리드 목록 당 공간 */
 		grid-column: 1/ 5;    /* about, photos, videos, diary, calender */
 		grid-row: 1;
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
 	}
 	.nav-about{
 
