@@ -3,7 +3,7 @@
 	body { font-family: Segoe UI; }
 	body a { text-decoration:none; color:black; }
 	body a:hover { color:gray; font-weight:bold; }
-	footer {width:auto; height:auto; clear:both; margin-left:auto; margin-right:auto;
+	footer { width:auto; height:auto; clear:both; margin-left:auto; margin-right:auto;
 					font-family: Segoe UI; font-size: 50%; font-weight:bold; }
 	footer a:hover { text-decoration:none; font-weight:bold; color:black; }
 
@@ -11,7 +11,8 @@
 		display: grid;
   	position: fixed; /* 네비게이션 바를 고정시킴 */
   	top: 0; /* 페이지 최상단에 네비게이션 바를 위치 */
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 그리드 목록 당 공간 */
+		grid-template-columns: repeat(5, minmax(5, 1fr));
+  	grid-gap: 1rem; /* 그리드 목록 당 공간 */
 		grid-column: 1/ 5;    /* about, photos, videos, diary, calender */
 		grid-row: 1;
 	}
