@@ -26,7 +26,7 @@
 	*/
 	@media (min-width: 1281px) {
 		.film_box { width: 100%; }
-		img { max-width: 40%; height: auto; }
+		img { max-width: 35%; height: auto; }
 	}
 	/*
 	##Device = Laptops, Desktops
@@ -37,7 +37,7 @@
 
 	@media (min-width: 1025px) and (max-width: 1280px) {
 		.film_box { width: 100%; }
-		img { max-width: 50%; height: auto; }
+		img { max-width: 45%; height: auto; }
 	}
 	/*
 	##Device = Tablets, Ipads (portrait),
