@@ -2,86 +2,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 <html>
 <head>
-<style>
-  iframe {width:90vw; height:90vh; overflow:hidden; scrolling="no";}
-  iframe-diary {position:relative; float:left;}
-  div { overflow:scroll; -webkit-overflow-scrolling:touch; }
-  li {  list-style: none; display: inline;}
-</style>
 </head>
-<title>youn9jo</title>
+<title>youngjo jeong</title>
 <link rel="stylesheet" type="text/css" href="css/myForm.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src = "js/script.js"></script>
-<script>
-jQuery(document).ready(function($){
-    $(".scroll").click(function(event){
-    event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-        //offset()함수를 이용하여 위치를 찾습니다.
-    });
-});
-</script>
-<br>
-<h3 style="font-family:courier new; margin-left: 2.5%" id="clock"></h3>
-<br>
-<body id="page-main" class="page-main"><div id="header">
-	<!--navigation-->
-	<ul>
-			<li><a href="#iframe-about" class = "scroll">about</a></li> /
-      <li><a href="#iframe-photo" class = "scroll">photo</a></li> /
-      <li><a href="#iframe-video" class = "scroll">video</a></li> /
-      <li><a href="#iframe-diary" class = "scroll">diary</a></li> /
-      <li><a href="#iframe-schedule" class = "scroll">schedule</a></li>
-  </ul>
-  <small>* photo & video yet</small>
-</div> <!-- #header -->
-<br><br>
-<!--body-->
-<div id="body">
-	<div id="iframes">
-    	<!-- about -->
-			<div class="iframe-about" id = "iframe-about">
-				<iframe frameborder="1" src="https://docs.google.com/document/d/1mo7bkoyHvtyIi_Qk8rA1Nf0h48y9xZSaWYdKG-Ow8IQ/edit?usp=sharing"
-                data-src="https://docs.google.com/document/d/1Rjkg33ptdXEhJLPP2FgFGkMW8H2eUDUMxjX2Deumz7E/edit?usp=sharing">
-        </iframe>
-			</div>
-			<!-- -->
-
-    	<br>
-
-
-			<!-- photo -->
-			<!--photo
-			<div class="iframe-photo" id = "iframe-photo">
-				<iframe frameborder="1">
-        </iframe>
-			</div>
-      -->
-			<!-- -->
-
-			<br>
-
-			<!-- movie -->
-			<!-- video
-			<div class = "#iframe-video" id = "iframe-video">
-				<iframe frameborder="1" class>
-        </iframe>
-			</div>
-      -->
-			<!-- -->
-      <!-- top button -->
-      <div style = "position: fixed; bottom: 10px; right: 10px;">
-        <a href = "#header">위로</a>
-      </div>
-	</div> <!-- #iframes -->
-	<br><br>
+<div class = "nav">
+  <div class = "nav-about">
+      <a>about, </a>
+  </div>
+  <div class = "photos-about">
+      <a>photos, </a>
+  </div>
+  <div class = "videos-about">
+    <a>videos, </a>
+  </div>
+  <div class = "diary-about">
+    <a>diary, </a>
+  </div>
+  <div class = "calender-about">
+    <a>calender</a>
+  </div>
 </div>
-	 <!-- #body -->
+<body>
+<br><br>
+<div class = "about-wrapper">
+  <div class = "about-content">
+    about<br><br>
+    정영조 youngjo jeong<br>
+    1996. 02. 05.<br>
+    born in seoul, south korea<br>
 
-<!-- footer -->
-<div id="footer" class="hide"> youngjo jeong 2019
-  <a href="https://www.instagram.com/youn9jo/" target="_blank" style="text-decoration:none; font-style:bold; color:black;">@youn9jo</a>
-</div> <!-- #footer -->
+    raised in seoul and i lived in valència for 6 months to study.<br>
+    my major is gis (geography information systems)<br>
+    i studied in namseoul university and upv (universitat politècnica de valència).<br>
+    currently in seoul.<br><br>
+    for any inquiries please contact me
+    <a href="mailto: youn9jo@gmail.com"</a>youn9jo@gmail.com<br>
+  </div>
+</div>
+<div id="footer">
+	<a href="https://www.instagram.com/youn9jo/" target="_blank">© YoungJo Jeong 2019</a>
+</div>
 </body>
 </html>
