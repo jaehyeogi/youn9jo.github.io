@@ -2,10 +2,10 @@
 
 	body { font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; }
 	body a { text-decoration:none; color:black; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;}
-	body a:hover { color:gray; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; font-weight:bold; }
+	body a:hover { text-decoration:underline; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; }
 	footer { width:auto; height:auto; clear:both; margin-left:auto; margin-right:auto;
 					font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;  }
-	footer a:hover { text-decoration:none; font-weight:bold; color:black; }
+	footer a:hover { text-decoration:underline; color:black; }
 
 	.nav {
 		display: grid;
