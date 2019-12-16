@@ -1,4 +1,4 @@
 
-http://youn9jo.github.io/
+<small>http://youn9jo.github.io/</small>
 
-https://www.instagram.com/youn9jo/
+<small>https://www.instagram.com/youn9jo/</small>
