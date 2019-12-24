@@ -1,10 +1,10 @@
 @CHARSET "EUC-KR";
 
-	body { font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; }
-	body a { text-decoration:none; color:black; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;}
-	body a:hover { text-decoration:underline; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; }
+	body { font-family: Arial, sans-serif; }
+	body a { text-decoration:none; color:black; font-family: Arial, sans-serif;}
+	body a:hover { text-decoration:underline; font-family: Arial, sans-serif; }
 	footer { width:auto; height:auto; clear:both; margin-left:auto; margin-right:auto;
-					font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;  }
+					font-family: Arial, sans-serif;  }
 	footer a:hover { text-decoration:underline; color:black; }
 
 	.nav {
@@ -15,7 +15,7 @@
   	grid-gap: 1rem; /* 그리드 목록 당 공간 */
 		grid-column: 1/ 5;    /* about, photos, videos, diary, calender */
 		grid-row: 1;
-		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+		font-family: Arial, sans-serif;
 	}
 	.nav-about{
 
@@ -45,8 +45,8 @@
 		height: 100%;
 	}
 
-	#date { font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; }
-	#clock { font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; }
+	#date { font-family: Arial, sans-serif; }
+	#clock { font-family: Arial, sans-serif; }
 
 	/* responsive css start line */
 	/*
