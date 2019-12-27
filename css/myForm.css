@@ -9,13 +9,14 @@
 	
 	.nav {
 		display: grid;
-  	position: fixed; /* 네비게이션 바를 고정시킴 */
-  	top: 0; /* 페이지 최상단에 네비게이션 바를 위치 */
+  		position: fixed; /* 네비게이션 바를 고정시킴 */
+  		top: 0; /* 페이지 최상단에 네비게이션 바를 위치 */
+		font-family: Arial, sans-serif;
 		grid-template-columns: repeat(5, 1fr);
-  	grid-gap: 1rem; /* 그리드 목록 당 공간 */
+  		grid-gap: 1rem; /* 그리드 목록 당 공간 */
 		grid-column: 1/ 5;    /* about, photos, videos, diary, calender */
 		grid-row: 1;
-		font-family: Arial, sans-serif;
+		padding: 1%;
 	}
 	.nav-about{
 
