@@ -49,7 +49,7 @@
 		font-size: small;
 	}
 
-	#date { font-family: Arial, sans-serif; }
+	#date { float:left; font-family: Arial, sans-serif; }
 	#clock { float:left; font-family: Arial, sans-serif; }
 
 	/* responsive css start line */
