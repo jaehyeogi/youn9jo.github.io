@@ -49,6 +49,7 @@
 		font-size: small;
 	}
 	
+	/* date, clock style에 "display: inline-block"로 가로로 나열함 */
 	#date { display: inline-block; font-family: Arial, sans-serif; }
 	#clock { display: inline-block; font-family: Arial, sans-serif; }
 
