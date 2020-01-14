@@ -48,7 +48,8 @@
 	.link {
 		font-size: small;
 	}
-
+	
+	#time { display:inline; }
 	#date { display:inline; float:left; font-family: Arial, sans-serif; }
 	#clock { display:inline; float:left; font-family: Arial, sans-serif; }
 
