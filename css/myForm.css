@@ -49,8 +49,8 @@
 		font-size: small;
 	}
 	
-	#date { font-family: Arial, sans-serif; }
-	#clock { font-family: Arial, sans-serif; }
+	#date { display: inline-block; font-family: Arial, sans-serif; }
+	#clock { display: inline-block; font-family: Arial, sans-serif; }
 
 	/* responsive css start line */
 	/*
