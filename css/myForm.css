@@ -1,20 +1,20 @@
 @CHARSET "EUC-KR";
 
-	body { font-family: Arial, sans-serif; }
-	body a { text-decoration:none; color:black; font-family: Arial, sans-serif;}
-	body a:hover { text-decoration:underline; font-family: Arial, sans-serif; }
+	body { font-family: Neue Haas Grotesk, sans-serif }
+	body a { text-decoration:none; color:black; font-family: Neue Haas Grotesk, sans-serif}
+	body a:hover { text-decoration:underline; font-family: Neue Haas Grotesk, sans-serif }
 	footer { width:auto; height:auto; clear:both; margin-left:auto; margin-right:auto;
 					font-family: Arial, sans-serif;  }
 	footer a:hover { text-decoration:underline; color:black; }
-	
+
 	.nav {
-  		position: fixed; /* 네비게이션 바를 고정시킴 */
+  	position: fixed; /* 네비게이션 바를 고정시킴 */
  	 	top: 0; /* 페이지 최상단에 네비게이션 바를 위치 */
-		font-family: Arial, sans-serif;
-		
+		font-family: Neue Haas Grotesk, sans-serif;
+
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-  		grid-gap: 1em; /* 그리드 목록 당 공간 */
+  	grid-gap: 1em; /* 그리드 목록 당 공간 */
 		/* grid-column: 1/ 5;    /* about, photos, videos, calender */
 		grid-auto-rows: auto;
 	}
@@ -48,10 +48,10 @@
 	.link {
 		font-size: small;
 	}
-	
+
 	/* date, clock style에 "display: inline-block"로 가로로 나열함 */
-	#date { display: inline-block; font-family: Arial, sans-serif; }
-	#clock { display: inline-block; font-family: Arial, sans-serif; }
+	#date { display: inline-block; font-family: Neue Haas Grotesk, sans-serif }
+	#clock { display: inline-block; font-family: Neue Haas Grotesk, sans-serif }
 
 	/* responsive css start line */
 	/*
@@ -62,7 +62,7 @@
 	*/
 	@media (min-width: 1281px) {
 		.img-wrapper { width: 100%; }
-		img { max-width: 35%; height: auto; }
+		img { max-width: 40%; height: auto; }
 		.calender-content {	padding-bottom: 45%; }
 	}
 	/*
@@ -74,7 +74,7 @@
 
 	@media (min-width: 1025px) and (max-width: 1280px) {
 		.img-wrapper { width: 100%; }
-		img { max-width: 45%; height: auto; }
+		img { max-width: 50%; height: auto; }
 		.calender-content {	padding-bottom: 55%; }
 	}
 	/*
@@ -98,7 +98,7 @@
 	@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 		.img-wrapper { width: 100%; }
 		img { max-width: 70%; height: auto; }
-		.calender-content {	padding-bottom: 65%; }
+		.calender-content {	padding-bottom: 75%; }
 	}
 	/*
 	##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -109,7 +109,7 @@
 	@media (min-width: 481px) and (max-width: 767px) {
 		.img-wrapper { width: 100%; }
 		img { max-width: 80%; height: auto; }
-		.calender-content {	padding-bottom: 75%; }
+		.calender-content {	padding-bottom: 85%; }
 	}
 	/*
 	##Device = Most of the Smartphones Mobiles (Portrait)
@@ -123,3 +123,21 @@
 		.calender-content {	padding-bottom: 100%; }
 	}
 	/* responsive css end line */
+
+
+	.row {
+  	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 4px;
+	}
+
+	/* Create two equal columns that sits next to each other */
+	.column {
+  	flex: 50%;
+  	padding: 0 4px;
+	}
+
+	.column img {
+  	margin-top: 8px;
+  	vertical-align: middle;
+	}
