@@ -16,10 +16,9 @@ setInterval(function(){
     var year = calender.getFullYear();
     var month = calender.getMonth() + 1;
     var date = calender.getDate();
-    var day = week[calender.getDay()];
     if( month < 10 ) month = '0' + month;
     if( date < 10 ) date = '0' + date;
-    document.getElementById("date").innerHTML = year + "." + " " + month + "." + " " + date + "." + " " + day});
+    document.getElementById("date").innerHTML = year + "." + " " + month + "." + " " + date + "."});
 
 
 // 위로 버튼
